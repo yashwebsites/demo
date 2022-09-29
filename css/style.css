@@ -1,0 +1,190 @@
+* {
+    margin: -1px;
+    padding: 1px;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+
+#navbar::before {
+    content: "";
+    background-color: rgb(245, 229, 229);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.6;
+}
+
+#logo {
+    margin: 10px 34px;
+}
+
+#logo img {
+    height: 59px;
+    margin: 3px 6px;
+}
+
+#navbar ul {
+    display: flex;
+}
+
+#navbar ul li {
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#navbar ul li a {
+    color: black;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+
+}
+
+#navbar ul li a:hover {
+    color: black;
+    background-color: white;
+}
+
+#home {
+
+    color:white;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 200px;
+    height: 550px;
+    justify-content: center;
+    align-items: center;
+}
+
+#home::before {
+    content: "";
+    position: absolute;
+    background: url('../yash/yash.jpg') no-repeat center center/cover;
+
+    height: 642px;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: -1;
+}
+
+#home h1 {
+    font-size: 4rem;
+    color: white;
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+}
+
+#home p {
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Bree Serif', serif;
+}
+
+.btn {
+    display: block;
+    padding: 6px 20px;
+    border: 2px solid white;
+    background-color: rebeccapurple;
+    color: white;
+    margin: auto;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+#services {
+    margin: 34px;
+    display: flex;
+
+
+}
+
+#services .box {
+    border: 2px solid brown;
+    padding: 34px;
+    margin: 2px 55px;
+    border-radius: 28px;
+    background: #f2f2f2;
+    margin-bottom: 20px;
+}
+
+#services .box img {
+    height: 160px;
+    margin: auto;
+    display: block;
+}
+
+#services .box p {
+    font-family: 'Bree Serif', serif;
+
+}
+
+.h-primary {
+    color: white;
+    font-family: 'Bree Serif', serif;
+    font-size: 3.8rem;
+    padding: 12px;
+}
+
+.h-secondary {
+    font-family: 'Bree Serif', serif;
+    font-size: 2.3rem;
+    padding: 12px;
+}
+
+.center {
+    text-align: center;
+}
+#services-container{
+    background: url('../yash/u.jpg') no-repeat center center/cover;
+
+
+}
+#client-section{
+    background: url('../yash/s.jpg') no-repeat center center/cover;
+
+
+    
+    color: #e7e7e7;
+}
+.client-item{
+    font-size: 2rem;
+    color: red;
+}
+#contact{
+background: url('../yash/o.jpg') no-repeat center center/cover;
+}
+#contact-box{
+    text-align: center;
+    color: white;
+}
+.u{
+    font-size: 1.5rem;
+}
+.o{
+    border: 1px solid white;
+    
+
+}
+span{
+    color: red;
+}
+.prakhar{
+    background-color: black;
+    color: red;
+    font-size: 2rem;
+    text-align: center;
+}
+
+
+
